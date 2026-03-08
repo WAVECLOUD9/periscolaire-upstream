@@ -8,6 +8,7 @@ class Enfant(models.Model):
     nom = models.CharField(max_length=100)
     date_naissance = models.DateField()
     allergies = models.TextField(blank=True, default='')
+    nom_prefere = models.CharField(max_length=100)
 
     def __str__(self):
         return f"{self.prenom} {self.nom}"
