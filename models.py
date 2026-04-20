@@ -39,3 +39,6 @@ class Inscription(models.Model):
 
     def __str__(self):
         return f"{self.enfant} → {self.activite} ({self.date})"
+
+
+# Ajout commentaire de test 
